@@ -1,0 +1,158 @@
+{
+  "mock_corpus_claims": [
+    {
+      "id": "c001",
+      "page_id": "page_it_onboarding",
+      "page_title": "IT Onboarding Guide",
+      "last_updated": "2023-03-15",
+      "claim": "New employees must create a password of at least 8 characters for their company account."
+    },
+    {
+      "id": "c002",
+      "page_id": "page_it_onboarding",
+      "page_title": "IT Onboarding Guide",
+      "last_updated": "2023-03-15",
+      "claim": "Employees should use LastPass to store and manage their work credentials."
+    },
+    {
+      "id": "c003",
+      "page_id": "page_it_onboarding",
+      "page_title": "IT Onboarding Guide",
+      "last_updated": "2023-03-15",
+      "claim": "Your laptop will be set up with Windows Defender as the primary endpoint security tool."
+    },
+    {
+      "id": "c004",
+      "page_id": "page_it_onboarding",
+      "page_title": "IT Onboarding Guide",
+      "last_updated": "2023-03-15",
+      "claim": "MFA setup is optional during your first 30 days while you get settled in."
+    },
+    {
+      "id": "c005",
+      "page_id": "page_it_onboarding",
+      "page_title": "IT Onboarding Guide",
+      "last_updated": "2023-03-15",
+      "claim": "IT onboarding support is available Monday to Friday during office hours."
+    },
+    {
+      "id": "c006",
+      "page_id": "page_remote_faq",
+      "page_title": "Remote Work FAQ",
+      "last_updated": "2022-08-10",
+      "claim": "You can access internal tools like email and the project tracker without VPN from trusted home networks."
+    },
+    {
+      "id": "c007",
+      "page_id": "page_remote_faq",
+      "page_title": "Remote Work FAQ",
+      "last_updated": "2022-08-10",
+      "claim": "Personal laptops may be used for remote work as long as they have up-to-date antivirus software."
+    },
+    {
+      "id": "c008",
+      "page_id": "page_remote_faq",
+      "page_title": "Remote Work FAQ",
+      "last_updated": "2022-08-10",
+      "claim": "Split tunnelling is available on request for employees who experience bandwidth issues."
+    },
+    {
+      "id": "c009",
+      "page_id": "page_remote_faq",
+      "page_title": "Remote Work FAQ",
+      "last_updated": "2022-08-10",
+      "claim": "Remote employees are encouraged to use a dedicated workspace at home."
+    },
+    {
+      "id": "c010",
+      "page_id": "page_remote_faq",
+      "page_title": "Remote Work FAQ",
+      "last_updated": "2022-08-10",
+      "claim": "The company VPN is GlobalProtect."
+    },
+    {
+      "id": "c011",
+      "page_id": "page_incident_handbook",
+      "page_title": "Security Incident Handbook",
+      "last_updated": "2021-11-02",
+      "claim": "Security incidents should be reported to your line manager in the first instance."
+    },
+    {
+      "id": "c012",
+      "page_id": "page_incident_handbook",
+      "page_title": "Security Incident Handbook",
+      "last_updated": "2021-11-02",
+      "claim": "The security team can be reached at security@company.com for incident reporting."
+    },
+    {
+      "id": "c013",
+      "page_id": "page_incident_handbook",
+      "page_title": "Security Incident Handbook",
+      "last_updated": "2021-11-02",
+      "claim": "Policy exceptions may be granted for up to 180 days at the discretion of the CISO."
+    },
+    {
+      "id": "c014",
+      "page_id": "page_incident_handbook",
+      "page_title": "Security Incident Handbook",
+      "last_updated": "2021-11-02",
+      "claim": "Employees should attempt basic remediation steps before escalating a suspected incident."
+    },
+    {
+      "id": "c015",
+      "page_id": "page_incident_handbook",
+      "page_title": "Security Incident Handbook",
+      "last_updated": "2021-11-02",
+      "claim": "All security incidents must be logged in the incident tracking portal."
+    },
+    {
+      "id": "c016",
+      "page_id": "page_byod",
+      "page_title": "BYOD Policy",
+      "last_updated": "2023-06-20",
+      "claim": "Full-disk encryption is recommended but not mandatory for personally-owned devices enrolled in MDM."
+    },
+    {
+      "id": "c017",
+      "page_id": "page_byod",
+      "page_title": "BYOD Policy",
+      "last_updated": "2023-06-20",
+      "claim": "Personally-owned devices must be enrolled in Mobile Device Management before accessing internal systems."
+    },
+    {
+      "id": "c018",
+      "page_id": "page_byod",
+      "page_title": "BYOD Policy",
+      "last_updated": "2023-06-20",
+      "claim": "Device enrolment requests are submitted via the IT service desk."
+    },
+    {
+      "id": "c019",
+      "page_id": "page_byod",
+      "page_title": "BYOD Policy",
+      "last_updated": "2023-06-20",
+      "claim": "macOS devices must have FileVault encryption enabled."
+    },
+    {
+      "id": "c020",
+      "page_id": "page_employee_handbook",
+      "page_title": "General Employee Handbook",
+      "last_updated": "2024-01-10",
+      "claim": "Passwords must be changed every 60 days."
+    },
+    {
+      "id": "c021",
+      "page_id": "page_employee_handbook",
+      "page_title": "General Employee Handbook",
+      "last_updated": "2024-01-10",
+      "claim": "All company data must be stored on approved cloud storage platforms."
+    },
+    {
+      "id": "c022",
+      "page_id": "page_employee_handbook",
+      "page_title": "General Employee Handbook",
+      "last_updated": "2024-01-10",
+      "claim": "Employees are responsible for keeping their work devices secure when working outside the office."
+    }
+  ]
+}

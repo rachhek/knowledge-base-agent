@@ -1,0 +1,226 @@
+[
+  {
+    "id": "ex_01",
+    "input": "All remote access must be conducted via the company VPN. For VPN credentials or access issues, contact the IT helpdesk at [it-support@company.com] or call [+358 XX XXX XXXX] during business hours.",
+    "human_label": 1,
+    "human_reason": "Contains bracketed placeholder [+358 XX XXX XXXX] for a phone number.",
+    "category": "placeholder"
+  },
+  {
+    "id": "ex_02",
+    "input": "All client entertainment expenses above {expense_limit} EUR must be pre-approved by {approving_manager} before the expense is incurred. Receipts must be submitted within {submission_window} business days of the expense date.",
+    "human_label": 1,
+    "human_reason": "Uses curly brace placeholders {expense_limit}, {approving_manager}, and {submission_window}.",
+    "category": "placeholder"
+  },
+  {
+    "id": "ex_03",
+    "input": "In the event of a fire alarm, all staff must evacuate via the nearest emergency exit and assemble at the designated muster point. The fire warden for this location is TBD. Head counts will be conducted by TBD.",
+    "human_label": 1,
+    "human_reason": "TBD indicates unresolved placeholders for critical safety roles.",
+    "category": "placeholder"
+  },
+  {
+    "id": "ex_04",
+    "input": "Any suspected breach of patient data must be reported to the Data Protection Officer at <dpo-email> within 72 hours of discovery, in accordance with GDPR Article 33 requirements.",
+    "human_label": 1,
+    "human_reason": "Uses angle bracket placeholder <dpo-email> for a required contact.",
+    "category": "placeholder"
+  },
+  {
+    "id": "ex_05",
+    "input": "If a member of staff has concerns about a child's welfare, they must contact the Designated Safeguarding Lead immediately. The current DSL is ... and can be reached at ... outside of school hours.",
+    "human_label": 1,
+    "human_reason": "Uses prose ellipses (...) as placeholders for contact names and details.",
+    "category": "placeholder"
+  },
+  {
+    "id": "ex_06",
+    "input": "All volunteers must complete mandatory induction training before their first shift. Training is coordinated by ________ in the People team. Please contact ________ to schedule your session.",
+    "human_label": 1,
+    "human_reason": "Uses underscores (________) as blank placeholders for staff names.",
+    "category": "placeholder"
+  },
+  {
+    "id": "ex_07",
+    "input": "Employees joining remotely will receive their equipment within 5 working days of their start date. For queries about equipment orders, contact TODO. Damaged or faulty equipment should be reported to TODO within 24 hours.",
+    "human_label": 1,
+    "human_reason": "Uses 'TODO' as a placeholder for contact information.",
+    "category": "placeholder"
+  },
+  {
+    "id": "ex_08",
+    "input": "International travel must be booked through our approved travel provider [travel-portal-url]. For trips exceeding {max_days} days, additional sign-off from the Regional Director is required. Contact [travel@company.com] for booking assistance.",
+    "human_label": 1,
+    "human_reason": "Contains mixed placeholder styles including [travel-portal-url] and {max_days}.",
+    "category": "placeholder"
+  },
+  {
+    "id": "ex_09",
+    "input": "Critical production incidents must be escalated immediately to the on-call engineer. The on-call schedule rotates weekly and is managed by the Engineering Lead. Response time expectations are defined in the SLA documentation.",
+    "human_label": 1,
+    "human_reason": "Names the 'Engineering Lead' but provides no specific contact method or link to the schedule.",
+    "category": "missing_contact"
+  },
+  {
+    "id": "ex_10",
+    "input": "If you wish to raise a formal grievance, you should submit a written statement to your line manager in the first instance. If the grievance concerns your line manager directly, escalate to the HR department. All grievances will be acknowledged within 5 working days.",
+    "human_label": 1,
+    "human_reason": "References 'line manager' and 'HR department' without providing specific contact details.",
+    "category": "missing_contact"
+  },
+  {
+    "id": "ex_11",
+    "input": "Any potential conflict of interest must be disclosed in writing before accepting the engagement. Disclosures should be submitted to the compliance team for review. If you are unsure whether a situation constitutes a conflict, seek guidance from the legal team before proceeding.",
+    "human_label": 1,
+    "human_reason": "Directs users to 'compliance team' and 'legal team' without providing contact info.",
+    "category": "missing_contact"
+  },
+  {
+    "id": "ex_12",
+    "input": "Parents wishing to make a formal complaint should contact the school office to request a copy of our complaints procedure. Stage 1 complaints are handled by the relevant Head of Year. Unresolved complaints escalate to the Headteacher.",
+    "human_label": 1,
+    "human_reason": "Identifies 'Head of Year' and 'Headteacher' as contacts but lacks specific contact details.",
+    "category": "missing_contact"
+  },
+  {
+    "id": "ex_21",
+    "input": "All requests for extended leave beyond statutory entitlement must be approved in writing by your department head. Once approved, notify the payroll team so that adjustments to your pay schedule can be made in advance of the leave period.",
+    "human_label": 1,
+    "human_reason": "References 'department head' and 'payroll team' with no names, emails, or contact methods provided.",
+    "category": "missing_contact"
+  },
+  {
+    "id": "ex_22",
+    "input": "Security incidents involving unauthorised access to internal systems must be reported within one hour of detection. The initial report should be filed with the Security Operations Centre. A full incident report must follow within 24 hours.",
+    "human_label": 1,
+    "human_reason": "Mentions 'Security Operations Centre' but provides no email, phone, ticketing link, or contact method.",
+    "category": "missing_contact"
+  },
+  {
+    "id": "ex_23",
+    "input": "Requests to onboard a new third-party supplier must be submitted to the Procurement team at least four weeks before the intended start date. The Procurement team will conduct due diligence checks and notify you of the outcome.",
+    "human_label": 1,
+    "human_reason": "References 'Procurement team' without an email address, internal portal link, or named contact.",
+    "category": "missing_contact"
+  },
+  {
+    "id": "ex_24",
+    "input": "Any employee who believes they have been subject to workplace harassment must report the matter to their HR Business Partner. Reports will be treated in strict confidence and investigated in line with our disciplinary policy.",
+    "human_label": 1,
+    "human_reason": "Refers to 'HR Business Partner' without providing a name, email, or means of reaching them.",
+    "category": "missing_contact"
+  },
+  {
+    "id": "ex_13",
+    "input": "Personal data collected during fundraising campaigns must be retained in accordance with our data retention schedule. Queries about what data we hold or requests for deletion should be directed to the appropriate team.",
+    "human_label": 1,
+    "human_reason": "Uses the vague term 'appropriate team' which is unactionable for the user.",
+    "category": "vague_reference"
+  },
+  {
+    "id": "ex_14",
+    "input": "When an employee leaves the organisation, access to all systems must be revoked promptly. The relevant teams should be notified by HR to ensure accounts are deactivated in a timely manner.",
+    "human_label": 1,
+    "human_reason": "Uses the vague term 'relevant teams' instead of specific departments or roles.",
+    "category": "vague_reference"
+  },
+  {
+    "id": "ex_15",
+    "input": "Till discrepancies of more than £10 must be reported at end of shift. Management will investigate and follow the appropriate process depending on the outcome of the review.",
+    "human_label": 1,
+    "human_reason": "Uses 'appropriate process' which fails to define the actual steps or consequences.",
+    "category": "vague_reference"
+  },
+  {
+    "id": "ex_16",
+    "input": "Any changes to medication administration protocols must be approved by the relevant clinical authority before implementation. Staff should not deviate from documented protocols without sign-off.",
+    "human_label": 1,
+    "human_reason": "The term 'relevant clinical authority' is too vague to identify the approver.",
+    "category": "vague_reference"
+  },
+  {
+    "id": "ex_25",
+    "input": "Employees who wish to raise a whistleblowing concern should do so through the appropriate internal channel. All disclosures will be handled sensitively and in line with our policies.",
+    "human_label": 1,
+    "human_reason": "'Appropriate internal channel' is undefined; the policy fails to name the channel, tool, or person to contact.",
+    "category": "vague_reference"
+  },
+  {
+    "id": "ex_26",
+    "input": "When processing a refund above the standard threshold, approval must be obtained from the relevant manager before the transaction is processed. Document the approval in the usual way before proceeding.",
+    "human_label": 1,
+    "human_reason": "'Relevant manager' and 'the usual way' are both too vague to be actionable for staff following the policy.",
+    "category": "vague_reference"
+  },
+  {
+    "id": "ex_27",
+    "input": "All contractors must complete the required compliance training before beginning work on client-facing projects. Training completion should be confirmed with the necessary stakeholders prior to the project kick-off.",
+    "human_label": 1,
+    "human_reason": "'Required compliance training' and 'necessary stakeholders' are undefined, leaving staff without clear guidance.",
+    "category": "vague_reference"
+  },
+  {
+    "id": "ex_28",
+    "input": "In the event of a data subject access request, the matter should be escalated appropriately and handled in a reasonable timeframe in accordance with applicable law.",
+    "human_label": 1,
+    "human_reason": "'Escalated appropriately' and 'reasonable timeframe' are too vague; GDPR mandates a 30-day response window which this policy omits.",
+    "category": "vague_reference"
+  },
+  {
+    "id": "ex_17",
+    "input": "All employee accounts must use a password of at least 14 characters, including uppercase, lowercase, numbers, and symbols. Passwords must be changed every 90 days. Use the company password manager (1Password) to generate and store credentials. Contact it-support@acme.com for access issues.",
+    "human_label": 0,
+    "human_reason": "Policy is fully specified with clear constraints and valid contact email.",
+    "category": "clean"
+  },
+  {
+    "id": "ex_18",
+    "input": "Expenses must be submitted via Expensify within 30 days of the expense date. Receipts are required for all amounts over €25. Approved expenses are reimbursed in the following month's payroll cycle. Contact finance@firm.com with submission queries.",
+    "human_label": 0,
+    "human_reason": "Process is clearly defined with a specific tool and contact email provided.",
+    "category": "clean"
+  },
+  {
+    "id": "ex_19",
+    "input": "Staff absences must be reported to the school office by 7:30am on the day of absence by calling 020 7946 0958. Please do not send text messages or emails for same-day absences. Absences lasting more than 3 consecutive days require a fit note from your GP.",
+    "human_label": 0,
+    "human_reason": "Provides a specific phone number, deadline, and clear instructions.",
+    "category": "clean"
+  },
+  {
+    "id": "ex_20",
+    "input": "Volunteers may claim travel expenses for journeys made on behalf of the organisation. Claims must be submitted using the Volunteer Expense Form, available from the volunteer coordinator (volunteers@charity.org.uk). Claims are processed within 14 days and paid directly to your bank account.",
+    "human_label": 0,
+    "human_reason": "Clearly identifies the form location and the specific email for the coordinator.",
+    "category": "clean"
+  },
+  {
+    "id": "ex_29",
+    "input": "All new starters must complete mandatory information security awareness training within their first two weeks of employment. Training is delivered via the LearnUpon platform. Access credentials will be sent to your work email by IT on your first day. Questions should be directed to security-training@company.com.",
+    "human_label": 0,
+    "human_reason": "Specifies the platform, delivery method, timeline, and a concrete contact email.",
+    "category": "clean"
+  },
+  {
+    "id": "ex_30",
+    "input": "To request access to a restricted system, submit a ticket via the IT Service Desk at helpdesk.internal/request. Your line manager must approve the request before access is provisioned. Standard provisioning time is two business days from approval. Contact itsupport@org.com for urgent requests.",
+    "human_label": 0,
+    "human_reason": "Includes a specific URL, approval process, SLA, and an escalation email address.",
+    "category": "clean"
+  },
+  {
+    "id": "ex_31",
+    "input": "Clinical staff must document all patient interactions in the Careflow system within four hours of the encounter. Any retrospective amendments must be countersigned by a senior clinician. For technical issues with Careflow, contact the Digital Health helpdesk on ext. 4400 or digitalhelpdesk@trust.nhs.uk.",
+    "human_label": 0,
+    "human_reason": "Defines the system, time requirement, amendment process, and two specific contact methods.",
+    "category": "clean"
+  },
+  {
+    "id": "ex_32",
+    "input": "Requests for planned maintenance windows on production infrastructure must be submitted to the Change Advisory Board (CAB) via the ServiceNow change management portal at least five business days in advance. Emergency changes require approval from the Head of Infrastructure (sarah.jones@company.com) before implementation.",
+    "human_label": 0,
+    "human_reason": "Names the approval body, the portal, the notice period, and a specific named contact with email for emergencies.",
+    "category": "clean"
+  }
+]

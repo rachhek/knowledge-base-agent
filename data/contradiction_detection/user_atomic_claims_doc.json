@@ -1,0 +1,60 @@
+{
+  "policy_claims": [
+    {
+      "id": "p001",
+      "claim": "The policy applies to all permanent staff, fixed-term employees, and third-party contractors with access to internal systems."
+    },
+    {
+      "id": "p002",
+      "claim": "All remote access to internal systems must be conducted exclusively over the company-approved VPN (GlobalProtect)."
+    },
+    {
+      "id": "p003",
+      "claim": "Multi-factor authentication (MFA) via Microsoft Authenticator is mandatory for all VPN sessions."
+    },
+    {
+      "id": "p004",
+      "claim": "Split-tunnel VPN is disabled for remote access; all traffic is routed through the corporate gateway."
+    },
+    {
+      "id": "p005",
+      "claim": "Only company-issued devices or personally-owned devices formally enrolled in MDM may be used for remote access."
+    },
+    {
+      "id": "p006",
+      "claim": "Full-disk encryption must be enabled on all devices (BitLocker for Windows, FileVault for macOS)."
+    },
+    {
+      "id": "p007",
+      "claim": "CrowdStrike Falcon (EDR) must be installed and reporting to the corporate console on all devices."
+    },
+    {
+      "id": "p008",
+      "claim": "Passwords must be a minimum of 14 characters, including uppercase, lowercase, numerals, and at least one symbol."
+    },
+    {
+      "id": "p009",
+      "claim": "Passwords must not be reused within the previous 12 cycles."
+    },
+    {
+      "id": "p010",
+      "claim": "Employees must use 1Password Teams for all non-privileged credentials."
+    },
+    {
+      "id": "p011",
+      "claim": "Security incidents must be reported immediately to the Security Operations Centre (SOC) via soc@company.com or the incident portal."
+    },
+    {
+      "id": "p012",
+      "claim": "Employees must not attempt to investigate or remediate a suspected security incident independently."
+    },
+    {
+      "id": "p013",
+      "claim": "Policy exceptions are valid for a maximum of 90 days and must be reviewed prior to expiry."
+    },
+    {
+      "id": "p014",
+      "claim": "Requests for policy exceptions must be submitted in writing to the Head of Information Security."
+    }
+  ]
+}
